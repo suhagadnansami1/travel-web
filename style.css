@@ -538,6 +538,17 @@ body{
         margin: 20px auto;
 
     }
+    .newsletter{
+        flex-direction: column ;
+        
+    }
+    .offer img{
+        width: 100%;
+        
+    }
+    .discount{
+        margin-left: 110px;
+    }
 }
 
 
