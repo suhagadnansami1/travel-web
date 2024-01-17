@@ -24,14 +24,12 @@ body{
     color: #131318;
     font-size: 20px;
     font-weight: 700;
-    word-wrap: break-word
 }
 
 .logo .logo-name .travel-design{
     color: #FF5400;
     font-size: 20px;
     font-weight: 700;
-    word-wrap: break-word
 }
 
 .logo-name{
@@ -472,11 +470,60 @@ body{
     font-weight: 800;
 
 }
+.main-footer{
+    width: 100%;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 400px;
+    
+}
+.logo-footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+  
+}
+
+.logo-footer .logo-name{
+   
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo-footer .travel-design{
+    color: #FF5400;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.footer-p{
+    margin-left: 180px;
+    width: 75%;
+
+}
+.footer-p p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-icon{
+    text-align: center;
+    word-spacing: 20px;
+}
+.hr{
+    width: 60%;
+    margin: 50px auto;
+}
 
 /* for smaller device */
 
 
-@media screen and  (max-width:600px) {
+@media screen and (min-width:250px) and (max-width:600px) {
     .container > ul a{
         display: none;
     }
@@ -548,6 +595,16 @@ body{
     }
     .discount{
         margin-left: 110px;
+    }
+
+    .main-footer{
+        width: 75%;
+        margin-top: 500px;
+        margin-left: 80px;
+
+    }
+    .footer-p{
+        margin: 0 auto;
     }
 }
 
